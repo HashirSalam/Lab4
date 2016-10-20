@@ -38,7 +38,7 @@ toalFaculty = 1500
 courses = 2000
 
 activities = []
-uactivities = {}
+
 
 #we know that the maximum number of users simultaneously connected with LMS has never increased above 65%.
 #6 hr 4 slots
