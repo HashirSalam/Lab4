@@ -1,0 +1,19 @@
+Activity,User,Prirority
+Lab Task Upload(5pm),Student,1st
+Lecture Download,Student,3rd
+Data Backup(3am-4am),System,1st
+Assignment Submission(12am),Student,2nd
+Assignment Grading,Faculty,3rd
+2nd Student Feedback,Student,4th
+Student Result Comments,Student,5th
+Student Result Comments,Student,5th
+Project Submission(12am),Student,1st
+Project Grading,Faculty,3rd
+New User Registration,Student,2nd
+Final Grading,Faculty,2nd
+Project Upload Link Creation,Faculty,1st
+Maintenance,System,1st
+Lecture Preparation,Faculty,4th
+Assignment Upload,Student,1st
+Course Registration,Student,4th
+ESE GuideLine Update,Faculty,5th

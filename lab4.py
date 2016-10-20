@@ -1,4 +1,4 @@
-#GeoLiteCity-Location.csv
+
 #https://github.com/HashirSalam/Lab4.git
 import csv
 
@@ -44,14 +44,10 @@ uactivities = {}
 #6 hr 4 slots
 
 for rows in reader:
-#    #will print each row by itself (all columns from names up to what they wear)
-     #print rows[2]
+
      activities.append(rows[2])
 
-       
-#    print "--------------------------------------------------------------------------"
-#    #will print first column (character names only)
-#    print row[0]
+
 
 activities = set(activities)        #getting unique entries
 
@@ -113,10 +109,9 @@ data17.displayData()
 
     
 
-arrayofdata=[[1,2,4,5,'something','spam',2.334],
-             [3,1,6,3,'anything','spam',0]]
+arrayofdata=[ ["Activity",'User','Prirority'] ,[data1.activity ,data1.user , data1.priority ] ,[data2.activity ,data2.user , data2.priority ] ,[data3.activity ,data3.user , data3.priority ] ,[data4.activity ,data4.user , data4.priority ] ,[data5.activity ,data5.user , data5.priority ] ,[data6.activity ,data6.user , data6.priority ] ,[data7.activity ,data7.user , data7.priority ] ,[data7.activity ,data7.user , data7.priority ] ,[data8.activity ,data8.user , data8.priority ] ,[data9.activity ,data9.user , data9.priority ] ,[data10.activity ,data10.user , data10.priority ] ,[data11.activity ,data11.user , data11.priority ] ,[data12.activity ,data12.user , data12.priority ] ,[data13.activity ,data13.user , data13.priority ] ,[data14.activity ,data14.user , data14.priority ] ,[data15.activity ,data15.user , data15.priority ] ,[data16.activity ,data16.user , data16.priority ] ,[data17.activity ,data17.user , data17.priority ]  ]
              
-with open('mydata.csv', 'w') as mycsvfile:
+with open('output.csv', 'w') as mycsvfile:
     thedatawriter = csv.writer(mycsvfile, dialect='mydialect')
     for row in arrayofdata:
         thedatawriter.writerow(row)
